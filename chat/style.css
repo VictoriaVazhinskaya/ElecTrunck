@@ -1,0 +1,209 @@
+h1{
+    background-color: #F5DEB3;
+    margin-top:  75px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #556B2F;
+    font-size: 2.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    opacity: 0.7;
+}
+label-login{
+    margin-top:  100px;
+    margin-left: 320px;
+    color: #556B2F;
+    font-size: 1.1em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+label-password{
+    position:  relative;
+    top:  12px;
+    margin-left: 320px;
+    color: #556B2F;
+    font-size: 1.1em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul#menu{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+ul#menu li{
+    display: inline;
+}
+ul#menu li i-a{    
+    padding: 5px 30px;
+    font-size: 2em;
+    color: #556B2F;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    opacity: 0.8;
+}
+ul#menu li i-a:hover{
+    background-color: #FF6347;    
+}
+input[type=text]{
+    position:  relative;
+    margin-top:  10px;
+    margin-left: 320px;
+    width: 150px;
+    height: 25px;
+    background-color: #FFFFF0;
+    border-style: none; 
+    clear: both;
+}
+input[type=password]{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 320px;
+    width: 150px;
+    height: 25px;
+    background-color: #FFFFF0;
+    border-style: none;
+}
+.login {
+    width: 150px;
+    height: 25px;
+    margin-left: 320px;
+    margin-top: 20px;
+    background-color: #556B2F;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #BDB76B;
+    color: #BDB76B;
+    opacity: 1;
+}
+.edit{
+    position: fixed;
+    top: 680px;
+    left: 1120px;
+    height: 25px;
+    width: 50px;
+    color: #FFFFFF;
+    background: #FF6347;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #FFFFFF;
+}
+.write-message{
+    position: fixed;
+    top: 670px;
+    left: 700px;
+    height: 150px;
+    width: 400px;
+    background-color: #FFFFF0;
+    border-radius: 15px;
+    border: none;
+}
+.send-message{
+    position: fixed;
+    width: 150px;
+    height: 25px;
+    top: 850px;
+    left: 945px;
+    color: #BDB76B;
+    background-color: #556B2F;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #BDB76B;
+}
+.delete{
+    position: absolute;
+    top: 200px;
+    left: 1060px;
+    width: 120px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 2px dashed #FFFFFF;
+}
+.server-status{
+    position: absolute;
+    top: 10px;
+    width: 160px;
+    height: 25px;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    background-color: #3CB371;
+    border: none;
+    border-radius: 10px;
+}
+#bottom-rectangle{
+    position: fixed;
+    top: 650px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #F5DEB3;
+    opacity: 0.5;
+    z-index: -1;
+  
+}
+#left-rectangle{
+    position: absolute;
+    top: 150px;
+    margin-left: 300px;
+    height: 300px;
+    width: 200px;
+    background-color: #F5DEB3;
+    opacity: 0.7;
+    z-index: -1;
+}
+#right-rectangle{
+    position: absolute;
+    top: 150px;
+    left: 1250px;
+    height: 470px;
+    width: 200px;
+    background-color: #8B7355;
+    opacity: 0.7;
+    z-index: -1;
+}  
+#correspondence{
+    position: absolute;
+    top: 240px;
+    margin-left: 600px;
+    height: 400px;
+    width: 600px;
+    background-color: #FFFFF0;
+    border: 5px solid #8B7355;
+    border-top-left-radius: 30px;
+    overflow: scroll;
+}
+img {
+    position: absolute;
+    top: 240px;
+    left: 1270px;
+}
+ul{
+    list-style-type: none;
+}
+li#user1{
+  line-height: 200%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.2em;
+  color: #556B2F;
+}
+li#user2{
+  line-height: 200%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.2em;
+  color: #CD3700;
+}
+li#message{
+  line-height: 100%;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p-right{
+   position: relative;
+   top: 66px;
+   left: 1270px;
+   color: #FFFFFF;
+   font-size: 1.2em;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body {
+	background-image: url("chart_background.jpg");
+	background-repeat: no-repeat;
+}

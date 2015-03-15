@@ -68,7 +68,7 @@ label-name{
 }
 .edit{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     height: 30px;
     width: 60px;
@@ -79,21 +79,21 @@ label-name{
     border-color: #FFFFFF;
 }
 .write-message{
-    position: fixed;
-    top: 670px;
-    left: 700px;
-    height: 150px;
-    width: 400px;
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    height: 15%;
+    width: 30%;
     background-color: #FFFFF0;
     border-radius: 15px;
     border: none;
 }
 .send-message{
-    position: fixed;
+    position: absolute;
     width: 150px;
     height: 25px;
-    top: 850px;
-    left: 945px;
+    top: 88%;
+    left: 50%;
     color: #BDB76B;
     background-color: #556B2F;
     border-width: 2px;
@@ -102,7 +102,7 @@ label-name{
 }
 .delete{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 55%;
     width: 120px;
     height: 30px;
@@ -154,7 +154,7 @@ label-name{
 }  
 #correspondence{
     position: absolute;
-    margin-top: -3%;
+    margin-top: -7%;
     margin-left: 31%;
     height: 37%;
     width: 30%;

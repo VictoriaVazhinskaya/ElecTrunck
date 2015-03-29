@@ -1,0 +1,11 @@
+GET http://localhost:999/chat?token=TN43EN HTTP/1.1
+User-Agent: Composer
+Host: localhost:999
+
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2015 20:00:55 GMT
+Access-control-allow-origin: *
+Content-length: 71
+
+{"messages":["Don't worry. I can give you a pillow."],"token":"TN19EN"}

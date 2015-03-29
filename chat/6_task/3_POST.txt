@@ -1,0 +1,15 @@
+POST http://localhost:999/chat HTTP/1.1
+User-Agent: Composer
+Host: localhost:999
+Content-Length: 57
+
+{"message" : "The wheather is fine today, isn't it?"}
+
+
+HTTP/1.1 200 OK
+Date: Sat, 28 Mar 2015 22:17:57 GMT
+Transfer-encoding: chunked
+Access-control-allow-origin: *
+
+0
+

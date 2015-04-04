@@ -1,4 +1,4 @@
-POST запрос:
+POST request:
 POST /chat HTTP/1.1
 Host: localhost:999
 User-Agent: Fiddler
@@ -9,7 +9,7 @@ User-Agent: Fiddler
 /----------------------------/
 
 
-DELETE запрос:
+DELETE request:
 DELETE /chat?(id) HTTP/1.1
 Host: localhost:999
 User-Agent: Fiddler
@@ -18,7 +18,7 @@ User-Agent: Fiddler
 /----------------------------/
 
 
-PUT запрос:
+PUT request:
 PUT /chat HTTP/1.1
 Host: localhost:999
 User-Agent: Fiddler
